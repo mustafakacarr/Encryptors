@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  db:
+    image: postgres:latest
+    container_name: encryptors_ws
+    environment:
+      POSTGRES_USER: mustafakacar
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: encryptors_db
+    ports:
+      - "9813:5432"

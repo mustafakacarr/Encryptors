@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ws
+  datasource:
+    url: jdbc:postgresql://localhost:9813/encryptors_db
+    username: mustafakacar
+    password: 123
+  jpa:
+    hibernate:
+      ddl-auto: update
